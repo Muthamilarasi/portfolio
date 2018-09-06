@@ -159,12 +159,18 @@ b.max-bold{ font-weight: 700; }
 	
 /* HEADER */
 
-.intro-section .heading-wrapper{ 
+.intro-section .address{ 
 	border-radius: 5px; 
 	padding: 10px; 
 	margin-bottom: 50px;
 	background:rgb(15, 236, 225); 
 	color:black;
+	margin-top: 2rem;
+	
+ }
+ @media only screen and (max-width:320){
+	 
+
  }
 
 .intro-section .info{ margin-bottom: 10px; }
@@ -204,7 +210,9 @@ b.max-bold{ font-weight: 700; }
 	-webkit-transform: translateY(-4px); 
 	transform: translateY(-4px);
  }
-
+.resume{
+	margin-left: -4rem;
+}
 
 /* ---------------------------------
 4. ABOUT SECTION
