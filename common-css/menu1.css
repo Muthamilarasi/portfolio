@@ -29,6 +29,7 @@
     float: none;
     display: block;
     text-align: left;
+    display: inline-block;
   }
   .header-right {
     float: none;
